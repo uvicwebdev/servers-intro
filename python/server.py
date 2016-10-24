@@ -7,6 +7,11 @@ app = Flask(__name__)
 global_lookup = {}
 
 
+@app.route('/')
+def index():
+    return "Index!"
+
+
 @app.route('/<username>')
 def get_user(username):
     username = str(username)
