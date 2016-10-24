@@ -2,7 +2,7 @@
 
 ## Our simple API:
 
-### GET /<username>
+### GET `/<username>`
 
 Returns data about specified user. If user is not found, return 404.
 Response:
@@ -14,7 +14,7 @@ Response:
 }
 ```
 
-### POST /<username>/update
+### POST `/<username>/update`
 Updates a given user, takes as a POST body the new user information.
 
 Request:
