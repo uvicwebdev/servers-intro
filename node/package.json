@@ -1,0 +1,20 @@
+{
+  "name": "example_api",
+  "version": "1.0.0",
+  "description": "A really dumb example of an server that accepts GETs and POSTs",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "intro",
+    "webdev",
+    "node"
+  ],
+  "author": "Erik Reppel",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
